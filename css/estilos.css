@@ -10,12 +10,13 @@ background-image: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.9) 
 /* Definimos la clase 'center' para las tablas*/
 
 
-#Table{
-   position: absolute;
-   left: 50%;
-   margin-left: -300px;
-   top: 50%;
-   margin-top: -300px;
+div.centraTabla{
+text-align: center;
+}
+
+div.centraTabla table {
+margin: 0 auto;
+text-align: left;
 }
 
 /* Establecemos el formato para h2, h3, h4 y p */
